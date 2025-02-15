@@ -1,4 +1,4 @@
-# Slack Monitoring Callback for Ansible
+# Slack Alert Callback for Ansible
 
 ## Description
 This repository contains a custom **Ansible callback plugin** that sends real-time monitoring feedback to **Slack** during Ansible playbook execution. The callback plugin, `slack_notify.py`, captures key playbook events such as task success, failure, and completion and sends formatted messages to a designated **Slack channel** via a webhook.
