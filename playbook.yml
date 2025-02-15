@@ -10,9 +10,9 @@
 
     - name: Failing Task
       command: /bin/false
-      ignore_errors: yes  # This allows the playbook to continue after failure
+      ignore_errors: yes
 
     - name: Skipped Task
       debug:
         msg: "This task will be skipped"
-      when: false  # The condition is always false, so it will be skipped
+      when: false
